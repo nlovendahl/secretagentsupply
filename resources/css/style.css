@@ -51,6 +51,7 @@ header {
   background-color: black;
   font-weight: bold;
   margin-top: 9rem;
+  margin-left: 0;
   padding: 2rem 3rem;
   width: 20rem;
   text-transform: uppercase;

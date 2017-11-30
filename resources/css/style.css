@@ -112,3 +112,31 @@ a {
 .img-box img {
   max-width: 8rem;
 }
+
+.visit .site-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding-bottom: 4rem;
+}
+
+.bar {
+  padding: 1rem 2rem;
+  background-color: black;
+}
+
+.numbers {
+  color: black;
+}
+
+footer {
+  background-color: black;
+  padding: 5rem 0;
+  text-align: left;
+}

@@ -8,51 +8,69 @@
   </head>
 
   <body>
-   <div class="main">
+
+
    <!--Begin Header-->
-    <div class="header">
-      <img src="./resources/images/logo_secretagent.png">
-      <span>SECRET AGENT SUPPLY INC.</span>
+    <header>
+      <div class="site-container">
+      <div class="logo">
+        <img src="./resources/images/logo_secretagent.png">
+        <span>Secret Agent Supply Inc.</span>
+      </div>
     </div>
+    </header>
     <!--End Header-->
 
     <!--Begin Banner-->
     <div class="banner">
+      <div class="site-container">
       <div class="headline">
-        <h5>NEW ARRIVAL</h5>
-        <h2>SPORT BIKES AND MOTORCYCLES</h2>
+        <h5>New Arrival</h5>
+        <h2>Sport Bikes and Motorcycles</h2>
+      </div>
       </div>
     </div>
     <!--End Banner-->
 
     <!--Begin Navbar-->
     <div class="navbar">
+      <div class="site-container">
+        <nav>
         <span><a href="#eyewear">Eyewear</a></span>
         <span><a href="#apparel">Apparel</a></span>
         <span><a href="#gadgets">Gadgets</a></span>
         <span><a href="#vehicles">Vehicles</a></span>
         <span><a href="#classes">Classes</a></span>
         <span><a href="#contact">Contact</a></span>
+      </nav>
+      </div>
     </div>
     <!--End Navbar-->
 
     <!--Begin MainGrid-->
     <div class="maingrid">
-      <div class="products">
-        <figure>
-          <img src="./resources/images/pen.png" alt="exploding pen">
-          <figcaption>Exploding Pen</figcaption>
-        </figure>
+      <div class="site-container">
 
-        <figure>
-          <img src="./resources/images/watch.png" alt="cellular watch">
-          <figcaption>Cellular Watch</figcaption>
-        </figure>
+        <div class="product-box">
+          <div class="img-box">
+            <img src="./resources/images/pen.png" alt="exploding pen">
+          </div>
+          <span>Exploding Pen</span>
+        </div>
 
-        <figure>
-          <img src="./resources/images/glasses.png" alt="secret agent man">
-          <figcaption>Cellular Watch</figcaption>
-        </figure>
+        <div class="product-box">
+          <div class="img-box">
+            <img src="./resources/images/watch.png" alt="watch">
+          </div>
+          <span>Cellular Watch</span>
+        </div>
+
+        <div class="product-box">
+          <div class="img-box">
+            <img src="./resources/images/glasses.png" alt="secretagentman">
+          </div>
+          <span>Thermal Glasses</span>
+        </div>
 
       </div>
     </div>
@@ -62,12 +80,12 @@
     <div class="visit">
 
       <div class="info">
-      <h6>Location</h6>
+      <span>Location</span>
       <span>-47.346436, 84.32354</span>
       </div>
 
       <div class="info">
-      <h6>Hours</h6>
+      <span>Hours</span>
       <span>0800-1800</span>
       </div>
 
@@ -76,9 +94,42 @@
 
     <!--Begin Footer-->
     <footer>
-      <h4>Copyright Secret Agent Supply Inc.</h4>
+      <span>Copyright Secret Agent Supply Inc.</span>
     </footer>
     <!--End Footer-->
 </div>
   </body>
 </html>
+
+<body>
+
+<!--EXAMPLE CODE BELOW-->
+
+    <!-- Info Section -->
+
+    <div id="info-section">
+      <div class="site-container">
+        <div class="info-container">
+          <span class="heading">Location</span>
+          <span class="description">-47.346436, 84.32354</span>
+        </div>
+        <div class="info-container">
+          <span class="heading">Hours</span>
+          <span class="description">0800 - 1800</span>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Footer Section -->
+
+    <footer>
+      <div class="site-container">
+        <span id="copyright">© Secret Agent Supply Inc.</span>
+      </div>
+    </footer>
+
+
+
+
+</body>
